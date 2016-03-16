@@ -5,7 +5,11 @@
 This assignment implements a compiler for the Egg-eater language, a small
 language with functions, numbers, booleans, and _tuples_.  The name egg-eater
 comes from the fact that tuple syntax with parentheses looks a little bit like
-an egg, if you squint and don't think about it too much.
+an egg, as long as you don't think about it too much.
+
+```
+(egg)
+```
 
 ## Language
 
@@ -335,3 +339,6 @@ Try building on this idea, and writing up a basic list library.  Write at least
    ambitious than lists, like a binary search tree, in Egg-eater.  This last
    point is ungraded, but quite rewarding!
 
+A note on support code – a lot is provided, but you're completely free to
+totally overwrite `compile.ml` with your own copy.  If you've added instructions
+to `instructions.ml`, feel free to use your version of that, as well.
