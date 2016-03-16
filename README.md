@@ -317,7 +317,14 @@ def length(l):
 
 Try building on this idea, and writing up a basic list library.  Write at least
 `sum`, to add up a numeric list, `append`, which concatenates two lists, and
-`reverse`, which reverses a list.  Write more if you want, and test them out.
+`reverse`, which reverses a list.  Hand them in in a file in the `input`
+directory called `lists.egg`, which has been started for you with a definition
+of `link`.  Remember that `make output/lists.run` will build the executable for
+this file.
+
+Write more functions if you want, as well, and test them out.
+
+
 
 
 ## Recommended TODO List
