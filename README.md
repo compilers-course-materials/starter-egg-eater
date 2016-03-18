@@ -13,17 +13,18 @@ an egg, as long as you don't think about it too much.
 
 ## Language
 
-Egg-eater has largely the same semantics as Diamondback, with a few additions
-and changes.
+Egg-eater starts with the same semantics as Diamondback, and adds support for
+tuples.
 
 ### Syntax Additions
 
 The main addition in Egg-eater is _tuple expressions_, along with an accessor
-expression for getting the contents of tuples.  Tuple expressions are a series
-of _two or more_ comma-separated expressions enclosed in parentheses.  A tuple
-access expression is an expression, followed by another expression enclosed in
-square brakcets.  Finally, `istuple` is a primitive, like `isnum` and `isbool`
-that checks for tuple-ness.
+expression for getting the contents of tuples, and a unary primitive for
+checking if a value is a tuple.  Tuple expressions are a series of _two or
+more_ comma-separated expressions enclosed in parentheses.  A tuple access
+expression is an expression, followed by another expression enclosed in square
+brakcets.  Finally, `istuple` is a primitive, like `isnum` and `isbool` that
+checks for tuple-ness.
 
 ```
 expr :=
