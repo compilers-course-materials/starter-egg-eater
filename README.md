@@ -346,6 +346,6 @@ Write more functions if you want, as well, and test them out.
    ambitious than lists, like a binary search tree, in Egg-eater.  This last
    point is ungraded, but quite rewarding!
 
-A note on support code – a lot is provided, but you're completely free to
-totally overwrite `compile.ml` with your own copy.  If you've added instructions
-to `instructions.ml`, feel free to use your version of that, as well.
+A note on support code – a lot is provided, but you can feel free to overwrite
+it with your own implementation, if you prefer.
+
